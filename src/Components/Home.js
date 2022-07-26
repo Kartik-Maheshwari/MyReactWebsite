@@ -46,7 +46,7 @@ function Home() {
         </div>
       </section>
       <section className='featured-posts container py-4'>
-        <h3 className='text-center text-uppercase pt-3'>Featured Posts</h3>
+        <h3 className='text-center text-uppercase pt-3'>Posts</h3>
         <div className='row'>
           <div className='col-lg-4 col-md-4 col-sm-12'>
             <div className="card">
