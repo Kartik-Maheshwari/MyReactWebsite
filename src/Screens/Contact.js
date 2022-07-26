@@ -1,7 +1,11 @@
 import React from 'react'
 import './Contact.css'
+import { useNavigate } from 'react-router-dom'
 
 function Contact() {
+
+  const navigate = useNavigate()
+
   return (
     <div className='container'>
       <h3 className='text-center text-uppercase pt-3'>Contact Us</h3>
@@ -34,7 +38,7 @@ function Contact() {
             <textarea className='form-control' id="query" required></textarea>
           </div>
           <div className='d-grid'>
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <button onClick={() => navigate('/contact')} type="submit" className="btn btn-primary">Submit</button>
           </div>
         </form>
       </div>
