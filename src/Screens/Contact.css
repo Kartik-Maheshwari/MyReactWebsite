@@ -1,0 +1,9 @@
+.content-for-container{
+    width: 60%;
+}
+/*Until the screen size is reached 768px keep applying below styling*/
+@media(max-width: 768px){
+    .content-for-container{
+        width: 88vw;
+    }
+}
